@@ -4,7 +4,7 @@ function discount$(price,rate){
 }
 function net(price,rate,discount$)	{
 	var total = price - discount$(price,rate);
-	return total;
+	return dicounttotal;
 }
 function cal(){
 var price= parseFloat(document.getElementById("price").value);
@@ -15,12 +15,12 @@ if (isNaN(price)||isNaN(rate))
 			}
 			else
 			{
-				if (price>1000|| price<0){
+				if (price>100|| price<0){
 	alert ("Item price should be in  between 0 or 1000");
 }
 else
 	{
-		if (rate>70|| rate <0)
+		if (rate>100|| rate <0)
 		{
 			alert("discount % should be in between 0 and 70")
 		}

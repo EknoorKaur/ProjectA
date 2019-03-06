@@ -1,0 +1,5 @@
+class Student{
+string fn
+string ln
+int id
+void
